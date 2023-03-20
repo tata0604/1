@@ -1,10 +1,10 @@
-// ChkAmstrong number or not
+// ChkArmstrong number or not
 
 // Input : 153
-//Output :  1*1*1 + 5*5*5 + 3*3*3
+// Output :  1*1*1 + 5*5*5 + 3*3*3
 
 
-function ChkAmstrong(No1 : number)
+function ChkArmstrong(No1 : number)
 {
     var rem : number = 0
     var Cnt : number = 0
@@ -35,4 +35,4 @@ function ChkAmstrong(No1 : number)
 
 var Value : number = 153
 
-ChkAmstrong(Value)
+ChkArmstrong(Value)
